@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"First serenity test","Get all students","FAILURE","2017-07-30T12:43:17.979-04:00","0.0","0.27"
+"First serenity test","This is atest with error","ERROR","2017-07-30T12:43:15.099-04:00","0.0","0.29"
+"First serenity test","This isa failing","FAILURE","2017-07-30T12:43:17.019-04:00","0.0","0.54"
+"First serenity test","This test will get the information of all the students from the Student App","FAILURE","2017-07-30T12:43:15.393-04:00","0.0","0.86"

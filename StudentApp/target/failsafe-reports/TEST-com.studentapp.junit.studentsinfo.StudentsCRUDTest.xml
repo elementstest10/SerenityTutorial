@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studentapp.junit.studentsinfo.StudentsCRUDTest" time="1.119" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/tejasvihegde/Documents/NEON/StudentApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/tejasvihegde/Documents/NEON/StudentApp"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_w/gwv9458d12717q1gpwm4fcxh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/tejasvihegde/Documents/NEON/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2695093548597994334.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tejasvihegde/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/tejasvihegde"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tejasvihegde"/>
+    <property name="java.class.path" value="/Users/tejasvihegde/eclipse/java-neon/Eclipse.app/Contents/Eclipse/../../../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/tejasvihegde/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/tejasvihegde/Documents/NEON/StudentApp/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test001" classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" time="0.233">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <403>.
+
+	at sun.reflect.GeneratedConstructorAccessor95.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$3.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor202.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.studentapp.junit.studentsinfo.StudentsCRUDTest.test001(StudentsCRUDTest.java:49)
+]]></failure>
+    <system-err><![CDATA[47480 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Get all students
+--------------------------------------------------------------------------
+47480 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <403>.
+47482 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is atest with error to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/425c8b4a3a62848d6ef47d04e40f9ae011346a38a2c2cb1bb78792589ce9d0ce.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/425c8b4a3a62848d6ef47d04e40f9ae011346a38a2c2cb1bb78792589ce9d0ce.json0b0133de-1baf-4983-8efb-10de7c024b55)
+47482 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a skipped test to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/307047252498f4a697f8f36a1fbdbdc24545b8d86b798682540e20d1876404b4.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/307047252498f4a697f8f36a1fbdbdc24545b8d86b798682540e20d1876404b4.json376da65b-0c9e-4781-a3fb-b6d1defa0b40)
+47484 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will get the information of all the students from the Student App to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/00083fbff958965af318099ca43bbfe823e182f6e2cc2676220f386827fa9e9b.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/00083fbff958965af318099ca43bbfe823e182f6e2cc2676220f386827fa9e9b.json1cae4a02-189f-45ff-a195-73cbb00cb68b)
+47485 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a pending test to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/fafd67ad440ca0e6aa888a71803a0c554f0852090d96724df89c848afb3918bf.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/fafd67ad440ca0e6aa888a71803a0c554f0852090d96724df89c848afb3918bf.json6f2acfca-a3e1-4b52-97b3-7c182e41f8b8)
+47486 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This isa failing to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/18e2c4098d3a09b4cc4b8d15ca5612dd0c757d65912dd262736b8994c91ac1fc.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/18e2c4098d3a09b4cc4b8d15ca5612dd0c757d65912dd262736b8994c91ac1fc.jsonbd38d7e3-1370-4cbc-9f01-48b10e3a8c03)
+47487 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This is a manual test to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/9db3fe179b2127edfd2c2e402c5b9bab335dc4ed5ffc539fe83960a91fb476fc.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/9db3fe179b2127edfd2c2e402c5b9bab335dc4ed5ffc539fe83960a91fb476fc.jsonfc48f7de-16b7-4a2b-821d-d9dd102fb44a)
+47488 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for File does not exist to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/49cd60b93fde3ff27bf49c003a64853b7539264547eb815dd047eb92baef8e87.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/49cd60b93fde3ff27bf49c003a64853b7539264547eb815dd047eb92baef8e87.json09bafdb2-1e1b-468a-a979-6d575f3479e0)
+47488 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all students to file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/d52f97208ee58ea4bc3426d0f419b93712b238d2e535aab87ae71149b59e76e7.json (using temp file /Users/tejasvihegde/Documents/NEON/StudentApp/target/site/serenity/d52f97208ee58ea4bc3426d0f419b93712b238d2e535aab87ae71149b59e76e7.jsond6636f55-5fa4-4a52-a8f4-0aff5b81cff9)
+47504 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:thisIsASkippedTest in 307047252498f4a697f8f36a1fbdbdc24545b8d86b798682540e20d1876404b4.html in directory target/site/serenity  
+47514 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:thisIsAtestWithError in 425c8b4a3a62848d6ef47d04e40f9ae011346a38a2c2cb1bb78792589ce9d0ce.html in directory target/site/serenity  
+47523 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:test01 in 00083fbff958965af318099ca43bbfe823e182f6e2cc2676220f386827fa9e9b.html in directory target/site/serenity  
+47529 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:thisIsAPendingTest in fafd67ad440ca0e6aa888a71803a0c554f0852090d96724df89c848afb3918bf.html in directory target/site/serenity  
+47538 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:thisIsAManualTest in 9db3fe179b2127edfd2c2e402c5b9bab335dc4ed5ffc539fe83960a91fb476fc.html in directory target/site/serenity  
+47538 [pool-1-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:thisIsaFailing in 18e2c4098d3a09b4cc4b8d15ca5612dd0c757d65912dd262736b8994c91ac1fc.html in directory target/site/serenity  
+47572 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:fileDoesNotExist in 49cd60b93fde3ff27bf49c003a64853b7539264547eb815dd047eb92baef8e87.html in directory target/site/serenity  
+47583 [pool-1-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR First serenity test:getAllStudents in d52f97208ee58ea4bc3426d0f419b93712b238d2e535aab87ae71149b59e76e7.html in directory target/site/serenity  
+47622 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Students CRUD test
+47849 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001
+-------------------------------------------------------------------
+47849 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 109
+]]></system-err>
+  </testcase>
+  <testcase name="test002" classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" time="0.235">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.studentapp.cucumber.serenity.StudentSerenitySteps.getStudentInfoByFirstName(StudentSerenitySteps.java:47)
+	at com.studentapp.junit.studentsinfo.StudentsCRUDTest.test002(StudentsCRUDTest.java:59)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 403 Forbidden
+Date: Sun, 30 Jul 2017 16:43:18 GMT
+X-Content-Type-Options: nosniff
+Set-Cookie: JSESSIONID.be2661c1=t0jtdxr9nzzijh8dxjfteg5w;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=UTF-8
+X-Hudson: 1.395
+X-Jenkins: 2.60.2
+X-Jenkins-Session: 46fe0875
+X-You-Are-Authenticated-As: anonymous
+X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+X-Required-Permission: hudson.model.Hudson.Read
+X-Permission-Implied-By: hudson.security.Permission.GenericRead
+X-Permission-Implied-By: hudson.model.Hudson.Administer
+Content-Length: 821
+Server: Jetty(9.2.z-SNAPSHOT)
+
+<html>
+  <head>
+    <meta http-equiv="refresh" content="1;url=/login?from=%2Fstudent%2Flist"/>
+    <script>window.location.replace('/login?from=%2Fstudent%2Flist');</script>
+  </head>
+  <body style="background-color:white; color:white;">
+
+
+Authentication required
+
+
+</body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[47870 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: This test will create a new student
+--------------------------------------------------------------------------
+47871 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <403>.
+48064 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test002
+-------------------------------------------------------------------
+48065 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 110
+]]></system-err>
+  </testcase>
+  <testcase name="test003" classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" time="0.287">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.studentapp.cucumber.serenity.StudentSerenitySteps.getStudentInfoByFirstName(StudentSerenitySteps.java:47)
+	at com.studentapp.junit.studentsinfo.StudentsCRUDTest.test003(StudentsCRUDTest.java:77)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	http://localhost:8080/student/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "id": 0,
+    "firstName": "SMOKEUSER89365_Updated",
+    "lastName": "SMOKEUSER60693",
+    "email": "52857xyz@gmail.com",
+    "programme": "ComputerScience",
+    "courses": [
+        "JAVA",
+        "C++"
+    ]
+}
+HTTP/1.1 403 Forbidden
+Date: Sun, 30 Jul 2017 16:43:19 GMT
+X-Content-Type-Options: nosniff
+Set-Cookie: JSESSIONID.be2661c1=1ka28w7ddduex1li70k0x6kmvm;Path=/;HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=UTF-8
+X-Hudson: 1.395
+X-Jenkins: 2.60.2
+X-Jenkins-Session: 46fe0875
+X-You-Are-Authenticated-As: anonymous
+X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+X-Required-Permission: hudson.model.Hudson.Read
+X-Permission-Implied-By: hudson.security.Permission.GenericRead
+X-Permission-Implied-By: hudson.model.Hudson.Administer
+Content-Length: 821
+Server: Jetty(9.2.z-SNAPSHOT)
+
+<html>
+  <head>
+    <meta http-equiv="refresh" content="1;url=/login?from=%2Fstudent%2Flist"/>
+    <script>window.location.replace('/login?from=%2Fstudent%2Flist');</script>
+  </head>
+  <body style="background-color:white; color:white;">
+
+
+Authentication required
+
+
+</body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[48108 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Verify if the student was added to the application
+--------------------------------------------------------------------------
+48271 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Getting the student information with firstName: SMOKEUSER89365
+48271 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <403>.
+48451 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test003
+-------------------------------------------------------------------
+48452 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 111
+]]></system-err>
+  </testcase>
+  <testcase name="test004" classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" time="0.364">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <403>.
+
+	at sun.reflect.GeneratedConstructorAccessor95.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$3.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor202.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.studentapp.junit.studentsinfo.StudentsCRUDTest.test004(StudentsCRUDTest.java:85)
+]]></failure>
+    <system-err><![CDATA[48561 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Update the user information and verify the updated information!
+--------------------------------------------------------------------------
+48565 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Getting the student information with firstName: SMOKEUSER89365_Updated
+48566 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <200> but was <403>.
+48901 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test004
+-------------------------------------------------------------------
+48901 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 112
+]]></system-err>
+  </testcase>
+</testsuite>

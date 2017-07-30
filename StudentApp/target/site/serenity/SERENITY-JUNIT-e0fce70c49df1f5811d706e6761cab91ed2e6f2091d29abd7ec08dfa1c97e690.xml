@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="100" name="com.studentapp.junit.studentsinfo.CreateStudentsDataDrivenTest" skipped="0" tests="100" time="73.49" timestamp="2017-07-211 12:43:11"><testcase classname="com.studentapp.junit.studentsinfo.CreateStudentsDataDrivenTest" name="DataDriven Test for adding multiple students to the Student App."><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;403&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.CreateStudentsDataDrivenTest.createMultiplestudents(CreateStudentsDataDrivenTest.java:88)
+</system-err></testcase></testsuite>

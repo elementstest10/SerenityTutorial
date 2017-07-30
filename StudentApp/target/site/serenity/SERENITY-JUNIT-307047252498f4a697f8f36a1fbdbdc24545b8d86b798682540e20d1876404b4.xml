@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="com.studentapp.junit.studentsinfo.FirstSerenityTest" skipped="4" tests="8" time="3.47" timestamp="2017-07-211 12:43:14"><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is a skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is atest with error"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero
+com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsAtestWithError(FirstSerenityTest.java:62)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This test will get the information of all the students from the Student App"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.test01(FirstSerenityTest.java:85)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This isa failing"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;403&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:44)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="File does not exist"><compromised message="E:/file.txt (No such file or directory)" type="java.io.FileNotFoundException">E:/file.txt (No such file or directory)</compromised><system-err>E:/file.txt (No such file or directory)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:69)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all students"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.getAllStudents(FirstSerenityTest.java:35)
+</system-err></testcase></testsuite>

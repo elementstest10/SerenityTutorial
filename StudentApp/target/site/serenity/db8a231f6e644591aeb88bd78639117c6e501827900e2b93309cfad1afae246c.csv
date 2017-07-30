@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Students CRUD test","Delete the student and verify if the student is deleted!","FAILURE","2017-07-30T12:43:19.339-04:00","0.0","0.36"
+"Students CRUD test","This test will create a new student","FAILURE","2017-07-30T12:43:18.394-04:00","0.0","0.25"
+"Students CRUD test","Update the user information and verify the updated information!","FAILURE","2017-07-30T12:43:19.044-04:00","0.0","0.29"
+"Students CRUD test","Verify if the student was added to the application","FAILURE","2017-07-30T12:43:18.644-04:00","0.0","0.24"
